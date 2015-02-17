@@ -2,19 +2,32 @@
 
 app.config(function($stateProvider, $urlRouterProvider) {
     
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/notfound');
     
     $stateProvider
         
-        // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
-            url: '/home',
+            url: '/',
             templateUrl: 'partial/home.html'
         })
         
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
         .state('about', {
-            // we'll get to this in a bit       
+            url: '/about',
+            templateUrl: 'partial/about.html'
+        })
+
+        .state('assignment', {
+            abstract: true,
+            url: '/assignment'
+        })
+
+        .state('assignment.details', {
+            url: '/number/:number'
+        })
+
+        .state('notfound', {
+            url: '/notfound',
+            templateUrl: 'partial/notfound.html'
         });
         
 });
