@@ -21,7 +21,7 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
         .state('assignment', {
             url: '/assignment/:id',
             templateUrl: function ($stateParams){
-                return '/partial/assignment' + $stateParams.id + '.html';
+                return '/partial/assignment.' + $stateParams.id + '.html';
               }
         })
 
