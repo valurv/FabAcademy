@@ -38,7 +38,23 @@ app.controller('AppCtrl', function ($scope){
 
     //Hérna bætiru við verkefnum eins og þú vilt.
     $scope.assignments = [
-        { name:'Fyrsta Verkefnið', id:'1'},
-        { name:'Hvaða nafn sem er', id:'2'}
+        { name:'project management', id:'week1'},
+        { name:'computer-aided design', id:'week2'},
+		{ name:'computer-controlled cutting', id:'week3'},
+		{ name:'electronics production', id:'week4'},
+		{ name:'3D scanning and printing', id:'week5'},
+		{ name:'embedded programming', id:'week6'},
+		{ name:'computer-controlled machining', id:'week7'},
+		{ name:'molding and casting', id:'week8'},
+		{ name:'input devices', id:'week10'},
+		{ name:'output devices', id:'week11'},
+		{ name:'composites', id:'week12'},
+		{ name:'networking and communications', id:'week13'},
+		{ name:'mechanical design', id:'week14'},
+		{ name:'interface and application programming', id:'week15'},
+		{ name:'applications and implications', id:'week16'},
+		{ name:'invention, intellectual property, and income', id:'week17'},
+		{ name:'project development', id:'week18'},
+		{ name:'project presentation', id:'week19'}
     ]
 });
