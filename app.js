@@ -36,25 +36,26 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 app.controller('AppCtrl', function ($scope){
 	$scope.pageTitle='Valur';
 
-    //Hérna bætiru við verkefnum eins og þú vilt.
+    //Herna baeti eg vid verkefnum af vild.
     $scope.assignments = [
         { name:'project management', id:'week1'},
         { name:'computer-aided design', id:'week2'},
 		{ name:'computer-controlled cutting', id:'week3'},
 		{ name:'electronics production', id:'week4'},
 		{ name:'3D scanning and printing', id:'week5'},
-		{ name:'embedded programming', id:'week6'},
-		{ name:'computer-controlled machining', id:'week7'},
-		{ name:'molding and casting', id:'week8'},
-		{ name:'input devices', id:'week10'},
-		{ name:'output devices', id:'week11'},
-		{ name:'composites', id:'week12'},
-		{ name:'networking and communications', id:'week13'},
-		{ name:'mechanical design', id:'week14'},
-		{ name:'interface and application programming', id:'week15'},
-		{ name:'applications and implications', id:'week16'},
-		{ name:'invention, intellectual property, and income', id:'week17'},
-		{ name:'project development', id:'week18'},
-		{ name:'project presentation', id:'week19'}
+		{ name:'electronics design', id:'week6'},
+		{ name:'embedded programming', id:'week7'},
+		{ name:'computer-controlled machining', id:'week8'},
+		{ name:'molding and casting', id:'week10'},
+		{ name:'input devices', id:'week11'},
+		{ name:'output devices', id:'week12'},
+		{ name:'composites', id:'week13'},
+		{ name:'networking and communications', id:'week14'},
+		{ name:'mechanical design', id:'week15'},
+		{ name:'interface and application programming', id:'week16'},
+		{ name:'applications and implications', id:'week17'},
+		{ name:'invention, intellectual property, and income', id:'week18'},
+		{ name:'project development', id:'week19'}
+		{ name:'project presentation', id:'week20'}
     ]
 });
