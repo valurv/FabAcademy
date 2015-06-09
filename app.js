@@ -55,7 +55,7 @@ app.controller('AppCtrl', function ($scope){
 		{ name:'interface and application programming', id:'week16'},
 		{ name:'applications and implications', id:'week17'},
 		{ name:'invention, intellectual property, and income', id:'week18'},
-		{ name:'project development', id:'week19'}
+		{ name:'project development', id:'week19'},
 		{ name:'project presentation', id:'week20'}
     ]
 });
